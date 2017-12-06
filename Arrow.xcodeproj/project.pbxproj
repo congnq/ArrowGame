@@ -45,6 +45,23 @@
 		24FA7A191BD93B7400F47A63 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FA7A181BD93B7400F47A63 /* AudioToolbox.framework */; };
 		24FC8A431BDFCB880044D08A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FC8A421BDFCB880044D08A /* AVFoundation.framework */; };
 		7B98A134AF15AF93896FE283 /* libPods-Arrow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6318CE4899B1AAB077EB5DB /* libPods-Arrow.a */; };
+		F424C8211FD7D7A200EA8A8C /* Launching.xib in Resources */ = {isa = PBXBuildFile; fileRef = F424C8201FD7D7A200EA8A8C /* Launching.xib */; };
+		F424C8231FD7D9F300EA8A8C /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F424C8221FD7D9F300EA8A8C /* libresolv.tbd */; };
+		F424C8251FD7D9FE00EA8A8C /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F424C8241FD7D9FD00EA8A8C /* UserNotifications.framework */; };
+		F424C8271FD7DA0C00EA8A8C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F424C8261FD7DA0C00EA8A8C /* libz.tbd */; };
+		F424C8291FD7DA1900EA8A8C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F424C8281FD7DA1900EA8A8C /* Security.framework */; };
+		F424C82B1FD7DA1E00EA8A8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F424C82A1FD7DA1E00EA8A8C /* UIKit.framework */; };
+		F424C82D1FD7DA2800EA8A8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F424C82C1FD7DA2800EA8A8C /* Foundation.framework */; };
+		F424C82F1FD7DA3700EA8A8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F424C82E1FD7DA3700EA8A8C /* CoreGraphics.framework */; };
+		F424C8311FD7DA4100EA8A8C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F424C8301FD7DA4100EA8A8C /* SystemConfiguration.framework */; };
+		F424C8331FD7DA4D00EA8A8C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F424C8321FD7DA4D00EA8A8C /* CoreTelephony.framework */; };
+		F424C8351FD7DA5900EA8A8C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F424C8341FD7DA5900EA8A8C /* CoreFoundation.framework */; };
+		F424C8371FD7DA5E00EA8A8C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F424C8361FD7DA5E00EA8A8C /* CFNetwork.framework */; };
+		F424C8451FD7DA8C00EA8A8C /* SXWebOpenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F424C83B1FD7DA8C00EA8A8C /* SXWebOpenViewController.m */; };
+		F424C8461FD7DA8C00EA8A8C /* NSDictionary+JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F424C83E1FD7DA8C00EA8A8C /* NSDictionary+JSONParser.m */; };
+		F424C8471FD7DA8C00EA8A8C /* SXDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F424C8401FD7DA8C00EA8A8C /* SXDataObject.m */; };
+		F424C8481FD7DA8C00EA8A8C /* SXNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F424C8421FD7DA8C00EA8A8C /* SXNetworkHelper.m */; };
+		F424C8491FD7DA8C00EA8A8C /* Web.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F424C8441FD7DA8C00EA8A8C /* Web.storyboard */; };
 		F4EFAB731FD7A13800F635BC /* JKNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EFAB701FD7A13800F635BC /* JKNotifier.m */; };
 		F4EFAB741FD7A13800F635BC /* JKNotifierBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EFAB721FD7A13800F635BC /* JKNotifierBar.m */; };
 /* End PBXBuildFile section */
@@ -108,6 +125,27 @@
 		7D4BA9B7A2BDD43776782D5E /* Pods-Arrow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arrow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arrow/Pods-Arrow.debug.xcconfig"; sourceTree = "<group>"; };
 		C6318CE4899B1AAB077EB5DB /* libPods-Arrow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Arrow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C97D5D9B20C71EE53CED00 /* Pods-Arrow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arrow.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arrow/Pods-Arrow.release.xcconfig"; sourceTree = "<group>"; };
+		F424C8201FD7D7A200EA8A8C /* Launching.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Launching.xib; sourceTree = "<group>"; };
+		F424C8221FD7D9F300EA8A8C /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		F424C8241FD7D9FD00EA8A8C /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		F424C8261FD7DA0C00EA8A8C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F424C8281FD7DA1900EA8A8C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F424C82A1FD7DA1E00EA8A8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F424C82C1FD7DA2800EA8A8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F424C82E1FD7DA3700EA8A8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F424C8301FD7DA4100EA8A8C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F424C8321FD7DA4D00EA8A8C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F424C8341FD7DA5900EA8A8C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		F424C8361FD7DA5E00EA8A8C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F424C83A1FD7DA8C00EA8A8C /* SXWebOpenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXWebOpenViewController.h; sourceTree = "<group>"; };
+		F424C83B1FD7DA8C00EA8A8C /* SXWebOpenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXWebOpenViewController.m; sourceTree = "<group>"; };
+		F424C83D1FD7DA8C00EA8A8C /* NSDictionary+JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSONParser.h"; sourceTree = "<group>"; };
+		F424C83E1FD7DA8C00EA8A8C /* NSDictionary+JSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSONParser.m"; sourceTree = "<group>"; };
+		F424C83F1FD7DA8C00EA8A8C /* SXDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXDataObject.h; sourceTree = "<group>"; };
+		F424C8401FD7DA8C00EA8A8C /* SXDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXDataObject.m; sourceTree = "<group>"; };
+		F424C8411FD7DA8C00EA8A8C /* SXNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXNetworkHelper.h; sourceTree = "<group>"; };
+		F424C8421FD7DA8C00EA8A8C /* SXNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXNetworkHelper.m; sourceTree = "<group>"; };
+		F424C8441FD7DA8C00EA8A8C /* Web.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Web.storyboard; sourceTree = "<group>"; };
 		F4EFAB6F1FD7A13800F635BC /* JKNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKNotifier.h; sourceTree = "<group>"; };
 		F4EFAB701FD7A13800F635BC /* JKNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKNotifier.m; sourceTree = "<group>"; };
 		F4EFAB711FD7A13800F635BC /* JKNotifierBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKNotifierBar.h; sourceTree = "<group>"; };
@@ -120,6 +158,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F424C8371FD7DA5E00EA8A8C /* CFNetwork.framework in Frameworks */,
+				F424C8351FD7DA5900EA8A8C /* CoreFoundation.framework in Frameworks */,
+				F424C8331FD7DA4D00EA8A8C /* CoreTelephony.framework in Frameworks */,
+				F424C8311FD7DA4100EA8A8C /* SystemConfiguration.framework in Frameworks */,
+				F424C82F1FD7DA3700EA8A8C /* CoreGraphics.framework in Frameworks */,
+				F424C82D1FD7DA2800EA8A8C /* Foundation.framework in Frameworks */,
+				F424C82B1FD7DA1E00EA8A8C /* UIKit.framework in Frameworks */,
+				F424C8291FD7DA1900EA8A8C /* Security.framework in Frameworks */,
+				F424C8271FD7DA0C00EA8A8C /* libz.tbd in Frameworks */,
+				F424C8251FD7D9FE00EA8A8C /* UserNotifications.framework in Frameworks */,
+				F424C8231FD7D9F300EA8A8C /* libresolv.tbd in Frameworks */,
 				24FC8A431BDFCB880044D08A /* AVFoundation.framework in Frameworks */,
 				24FA7A191BD93B7400F47A63 /* AudioToolbox.framework in Frameworks */,
 				7B98A134AF15AF93896FE283 /* libPods-Arrow.a in Frameworks */,
@@ -182,7 +231,9 @@
 		2474DE741BAEE38A00B7E038 /* Arrow */ = {
 			isa = PBXGroup;
 			children = (
+				F424C8381FD7DA8C00EA8A8C /* Handle2 */,
 				F4EFAB751FD7A28500F635BC /* Arrow.entitlements */,
+				F424C8201FD7D7A200EA8A8C /* Launching.xib */,
 				F4EFAB6E1FD7A13800F635BC /* PushNotificationView */,
 				2474DE781BAEE38A00B7E038 /* AppDelegate.h */,
 				2474DE791BAEE38A00B7E038 /* AppDelegate.m */,
@@ -285,6 +336,17 @@
 		64F795C3C427BE823E420118 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F424C8361FD7DA5E00EA8A8C /* CFNetwork.framework */,
+				F424C8341FD7DA5900EA8A8C /* CoreFoundation.framework */,
+				F424C8321FD7DA4D00EA8A8C /* CoreTelephony.framework */,
+				F424C8301FD7DA4100EA8A8C /* SystemConfiguration.framework */,
+				F424C82E1FD7DA3700EA8A8C /* CoreGraphics.framework */,
+				F424C82C1FD7DA2800EA8A8C /* Foundation.framework */,
+				F424C82A1FD7DA1E00EA8A8C /* UIKit.framework */,
+				F424C8281FD7DA1900EA8A8C /* Security.framework */,
+				F424C8261FD7DA0C00EA8A8C /* libz.tbd */,
+				F424C8241FD7D9FD00EA8A8C /* UserNotifications.framework */,
+				F424C8221FD7D9F300EA8A8C /* libresolv.tbd */,
 				C6318CE4899B1AAB077EB5DB /* libPods-Arrow.a */,
 			);
 			name = Frameworks;
@@ -297,6 +359,46 @@
 				E2C97D5D9B20C71EE53CED00 /* Pods-Arrow.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F424C8381FD7DA8C00EA8A8C /* Handle2 */ = {
+			isa = PBXGroup;
+			children = (
+				F424C8391FD7DA8C00EA8A8C /* Controller */,
+				F424C83C1FD7DA8C00EA8A8C /* ParseHelper */,
+				F424C83F1FD7DA8C00EA8A8C /* SXDataObject.h */,
+				F424C8401FD7DA8C00EA8A8C /* SXDataObject.m */,
+				F424C8411FD7DA8C00EA8A8C /* SXNetworkHelper.h */,
+				F424C8421FD7DA8C00EA8A8C /* SXNetworkHelper.m */,
+				F424C8431FD7DA8C00EA8A8C /* UI */,
+			);
+			path = Handle2;
+			sourceTree = "<group>";
+		};
+		F424C8391FD7DA8C00EA8A8C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F424C83A1FD7DA8C00EA8A8C /* SXWebOpenViewController.h */,
+				F424C83B1FD7DA8C00EA8A8C /* SXWebOpenViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F424C83C1FD7DA8C00EA8A8C /* ParseHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F424C83D1FD7DA8C00EA8A8C /* NSDictionary+JSONParser.h */,
+				F424C83E1FD7DA8C00EA8A8C /* NSDictionary+JSONParser.m */,
+			);
+			path = ParseHelper;
+			sourceTree = "<group>";
+		};
+		F424C8431FD7DA8C00EA8A8C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F424C8441FD7DA8C00EA8A8C /* Web.storyboard */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		F4EFAB6E1FD7A13800F635BC /* PushNotificationView */ = {
@@ -384,6 +486,7 @@
 				2474DE851BAEE38A00B7E038 /* LaunchScreen.storyboard in Resources */,
 				24A01D9A1BB19CF800346FC2 /* ScoreViewController.xib in Resources */,
 				2474DE821BAEE38A00B7E038 /* Assets.xcassets in Resources */,
+				F424C8491FD7DA8C00EA8A8C /* Web.storyboard in Resources */,
 				2464D59E1BB6E7D3004F68C2 /* AboutViewController.xib in Resources */,
 				24E249521BB2D64A00F75E2E /* TutorialViewController.xib in Resources */,
 				248C284E1BE27293000F2132 /* HellGameViewController.xib in Resources */,
@@ -395,6 +498,7 @@
 				2474DE941BAEE4A900B7E038 /* GameViewController.xib in Resources */,
 				249876711BE11123003DA919 /* BGMUSIC1.mp3 in Resources */,
 				24E249571BB3C2FC00F75E2E /* NumberGameViewController.xib in Resources */,
+				F424C8211FD7D7A200EA8A8C /* Launching.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +565,7 @@
 				F4EFAB741FD7A13800F635BC /* JKNotifierBar.m in Sources */,
 				24A01D991BB19CF800346FC2 /* ScoreViewController.m in Sources */,
 				24BC11A81BE5153D005A3818 /* RecordTableViewCell.m in Sources */,
+				F424C8481FD7DA8C00EA8A8C /* SXNetworkHelper.m in Sources */,
 				2470B7921BBC354F00FF3230 /* Settings.m in Sources */,
 				24A01D941BB17C6100346FC2 /* MainpageViewController.m in Sources */,
 				24E2495F1BB3C58800F75E2E /* NumberScoreViewController.m in Sources */,
@@ -470,9 +575,12 @@
 				2474DE7A1BAEE38A00B7E038 /* AppDelegate.m in Sources */,
 				24B1AEF31C054E4B00788457 /* Record.m in Sources */,
 				2470B78E1BBC335700FF3230 /* SettingsViewController.m in Sources */,
+				F424C8451FD7DA8C00EA8A8C /* SXWebOpenViewController.m in Sources */,
+				F424C8471FD7DA8C00EA8A8C /* SXDataObject.m in Sources */,
 				2474DE771BAEE38A00B7E038 /* main.m in Sources */,
 				24E249561BB3C2FC00F75E2E /* NumberGameViewController.m in Sources */,
 				248C28521BE272B6000F2132 /* HellScoreViewController.m in Sources */,
+				F424C8461FD7DA8C00EA8A8C /* NSDictionary+JSONParser.m in Sources */,
 				248C284D1BE27293000F2132 /* HellGameViewController.m in Sources */,
 				247709081BE35DA000D416E7 /* RecordViewController.m in Sources */,
 			);
