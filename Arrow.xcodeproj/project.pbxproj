@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		243983B61BC8AACF00DAF916 /* RingerChanged 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 243983B41BC8AACF00DAF916 /* RingerChanged 1.wav */; };
+		243983BB1BC8AC8F00DAF916 /* Tock.caf in Resources */ = {isa = PBXBuildFile; fileRef = 243983BA1BC8AC8F00DAF916 /* Tock.caf */; };
+		2464D59D1BB6E7D3004F68C2 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2464D59B1BB6E7D3004F68C2 /* AboutViewController.m */; };
+		2464D59E1BB6E7D3004F68C2 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2464D59C1BB6E7D3004F68C2 /* AboutViewController.xib */; };
+		2470B78E1BBC335700FF3230 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2470B78C1BBC335700FF3230 /* SettingsViewController.m */; };
+		2470B78F1BBC335700FF3230 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2470B78D1BBC335700FF3230 /* SettingsViewController.xib */; };
+		2470B7921BBC354F00FF3230 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2470B7911BBC354F00FF3230 /* Settings.m */; };
+		2474DE771BAEE38A00B7E038 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2474DE761BAEE38A00B7E038 /* main.m */; };
+		2474DE7A1BAEE38A00B7E038 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2474DE791BAEE38A00B7E038 /* AppDelegate.m */; };
+		2474DE821BAEE38A00B7E038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2474DE811BAEE38A00B7E038 /* Assets.xcassets */; };
+		2474DE851BAEE38A00B7E038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2474DE831BAEE38A00B7E038 /* LaunchScreen.storyboard */; };
+		2474DE931BAEE4A900B7E038 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2474DE911BAEE4A900B7E038 /* GameViewController.m */; };
+		2474DE941BAEE4A900B7E038 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2474DE921BAEE4A900B7E038 /* GameViewController.xib */; };
+		247709081BE35DA000D416E7 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 247709061BE35DA000D416E7 /* RecordViewController.m */; };
+		247709091BE35DA000D416E7 /* RecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 247709071BE35DA000D416E7 /* RecordViewController.xib */; };
+		248C284D1BE27293000F2132 /* HellGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248C284B1BE27293000F2132 /* HellGameViewController.m */; };
+		248C284E1BE27293000F2132 /* HellGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 248C284C1BE27293000F2132 /* HellGameViewController.xib */; };
+		248C28521BE272B6000F2132 /* HellScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248C28501BE272B6000F2132 /* HellScoreViewController.m */; };
+		248C28531BE272B6000F2132 /* HellScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 248C28511BE272B6000F2132 /* HellScoreViewController.xib */; };
+		24933B3C1BB2C19A00AEF973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24933B3B1BB2C19A00AEF973 /* Main.storyboard */; };
+		24933B3F1BB2C5B000AEF973 /* HighScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 24933B3E1BB2C5B000AEF973 /* HighScore.m */; };
+		249876711BE11123003DA919 /* BGMUSIC1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 249876701BE11123003DA919 /* BGMUSIC1.mp3 */; };
+		24A01D941BB17C6100346FC2 /* MainpageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A01D921BB17C6100346FC2 /* MainpageViewController.m */; };
+		24A01D951BB17C6100346FC2 /* MainpageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24A01D931BB17C6100346FC2 /* MainpageViewController.xib */; };
+		24A01D991BB19CF800346FC2 /* ScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A01D971BB19CF800346FC2 /* ScoreViewController.m */; };
+		24A01D9A1BB19CF800346FC2 /* ScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24A01D981BB19CF800346FC2 /* ScoreViewController.xib */; };
+		24B1AEF31C054E4B00788457 /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1AEF21C054E4B00788457 /* Record.m */; };
+		24BC11A81BE5153D005A3818 /* RecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BC11A61BE5153D005A3818 /* RecordTableViewCell.m */; };
+		24BC11A91BE5153D005A3818 /* RecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24BC11A71BE5153D005A3818 /* RecordTableViewCell.xib */; };
+		24E249511BB2D64A00F75E2E /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E2494F1BB2D64A00F75E2E /* TutorialViewController.m */; };
+		24E249521BB2D64A00F75E2E /* TutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24E249501BB2D64A00F75E2E /* TutorialViewController.xib */; };
+		24E249561BB3C2FC00F75E2E /* NumberGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E249541BB3C2FC00F75E2E /* NumberGameViewController.m */; };
+		24E249571BB3C2FC00F75E2E /* NumberGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24E249551BB3C2FC00F75E2E /* NumberGameViewController.xib */; };
+		24E2495F1BB3C58800F75E2E /* NumberScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E2495D1BB3C58800F75E2E /* NumberScoreViewController.m */; };
+		24E249601BB3C58800F75E2E /* NumberScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24E2495E1BB3C58800F75E2E /* NumberScoreViewController.xib */; };
+		24FA7A191BD93B7400F47A63 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FA7A181BD93B7400F47A63 /* AudioToolbox.framework */; };
+		24FC8A431BDFCB880044D08A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FC8A421BDFCB880044D08A /* AVFoundation.framework */; };
+		7B98A134AF15AF93896FE283 /* libPods-Arrow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6318CE4899B1AAB077EB5DB /* libPods-Arrow.a */; };
+		F4EFAB731FD7A13800F635BC /* JKNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EFAB701FD7A13800F635BC /* JKNotifier.m */; };
+		F4EFAB741FD7A13800F635BC /* JKNotifierBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EFAB721FD7A13800F635BC /* JKNotifierBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		243983B41BC8AACF00DAF916 /* RingerChanged 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "RingerChanged 1.wav"; sourceTree = "<group>"; };
+		243983BA1BC8AC8F00DAF916 /* Tock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tock.caf; sourceTree = "<group>"; };
+		2464D59A1BB6E7D3004F68C2 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		2464D59B1BB6E7D3004F68C2 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		2464D59C1BB6E7D3004F68C2 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		2470B78B1BBC335700FF3230 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		2470B78C1BBC335700FF3230 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		2470B78D1BBC335700FF3230 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		2470B7901BBC354F00FF3230 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		2470B7911BBC354F00FF3230 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		2474DE721BAEE38A00B7E038 /* Arrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2474DE761BAEE38A00B7E038 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2474DE781BAEE38A00B7E038 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2474DE791BAEE38A00B7E038 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2474DE811BAEE38A00B7E038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2474DE841BAEE38A00B7E038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2474DE861BAEE38A00B7E038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2474DE901BAEE4A900B7E038 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		2474DE911BAEE4A900B7E038 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		2474DE921BAEE4A900B7E038 /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		247709051BE35DA000D416E7 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		247709061BE35DA000D416E7 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		247709071BE35DA000D416E7 /* RecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordViewController.xib; sourceTree = "<group>"; };
+		248C284A1BE27293000F2132 /* HellGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellGameViewController.h; sourceTree = "<group>"; };
+		248C284B1BE27293000F2132 /* HellGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellGameViewController.m; sourceTree = "<group>"; };
+		248C284C1BE27293000F2132 /* HellGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HellGameViewController.xib; sourceTree = "<group>"; };
+		248C284F1BE272B6000F2132 /* HellScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellScoreViewController.h; sourceTree = "<group>"; };
+		248C28501BE272B6000F2132 /* HellScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellScoreViewController.m; sourceTree = "<group>"; };
+		248C28511BE272B6000F2132 /* HellScoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HellScoreViewController.xib; sourceTree = "<group>"; };
+		24933B3B1BB2C19A00AEF973 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		24933B3D1BB2C5B000AEF973 /* HighScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScore.h; sourceTree = "<group>"; };
+		24933B3E1BB2C5B000AEF973 /* HighScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScore.m; sourceTree = "<group>"; };
+		249876701BE11123003DA919 /* BGMUSIC1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BGMUSIC1.mp3; path = src/BGMUSIC1.mp3; sourceTree = SOURCE_ROOT; };
+		24A01D911BB17C6100346FC2 /* MainpageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainpageViewController.h; sourceTree = "<group>"; };
+		24A01D921BB17C6100346FC2 /* MainpageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainpageViewController.m; sourceTree = "<group>"; };
+		24A01D931BB17C6100346FC2 /* MainpageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainpageViewController.xib; sourceTree = "<group>"; };
+		24A01D961BB19CF800346FC2 /* ScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreViewController.h; sourceTree = "<group>"; };
+		24A01D971BB19CF800346FC2 /* ScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreViewController.m; sourceTree = "<group>"; };
+		24A01D981BB19CF800346FC2 /* ScoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScoreViewController.xib; sourceTree = "<group>"; };
+		24B1AEF11C054E4B00788457 /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		24B1AEF21C054E4B00788457 /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
+		24BC11A51BE5153D005A3818 /* RecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordTableViewCell.h; sourceTree = "<group>"; };
+		24BC11A61BE5153D005A3818 /* RecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordTableViewCell.m; sourceTree = "<group>"; };
+		24BC11A71BE5153D005A3818 /* RecordTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordTableViewCell.xib; sourceTree = "<group>"; };
+		24E2494E1BB2D64A00F75E2E /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		24E2494F1BB2D64A00F75E2E /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		24E249501BB2D64A00F75E2E /* TutorialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutorialViewController.xib; sourceTree = "<group>"; };
+		24E249531BB3C2FC00F75E2E /* NumberGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberGameViewController.h; sourceTree = "<group>"; };
+		24E249541BB3C2FC00F75E2E /* NumberGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberGameViewController.m; sourceTree = "<group>"; };
+		24E249551BB3C2FC00F75E2E /* NumberGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberGameViewController.xib; sourceTree = "<group>"; };
+		24E2495C1BB3C58800F75E2E /* NumberScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberScoreViewController.h; sourceTree = "<group>"; };
+		24E2495D1BB3C58800F75E2E /* NumberScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberScoreViewController.m; sourceTree = "<group>"; };
+		24E2495E1BB3C58800F75E2E /* NumberScoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberScoreViewController.xib; sourceTree = "<group>"; };
+		24FA7A181BD93B7400F47A63 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		24FC8A421BDFCB880044D08A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7D4BA9B7A2BDD43776782D5E /* Pods-Arrow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arrow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arrow/Pods-Arrow.debug.xcconfig"; sourceTree = "<group>"; };
+		C6318CE4899B1AAB077EB5DB /* libPods-Arrow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Arrow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C97D5D9B20C71EE53CED00 /* Pods-Arrow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arrow.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arrow/Pods-Arrow.release.xcconfig"; sourceTree = "<group>"; };
+		F4EFAB6F1FD7A13800F635BC /* JKNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKNotifier.h; sourceTree = "<group>"; };
+		F4EFAB701FD7A13800F635BC /* JKNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKNotifier.m; sourceTree = "<group>"; };
+		F4EFAB711FD7A13800F635BC /* JKNotifierBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKNotifierBar.h; sourceTree = "<group>"; };
+		F4EFAB721FD7A13800F635BC /* JKNotifierBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKNotifierBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2474DE6F1BAEE38A00B7E038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FC8A431BDFCB880044D08A /* AVFoundation.framework in Frameworks */,
+				24FA7A191BD93B7400F47A63 /* AudioToolbox.framework in Frameworks */,
+				7B98A134AF15AF93896FE283 /* libPods-Arrow.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2460298B1C00AB1100187E7A /* About */ = {
+			isa = PBXGroup;
+			children = (
+				2464D59A1BB6E7D3004F68C2 /* AboutViewController.h */,
+				2464D59B1BB6E7D3004F68C2 /* AboutViewController.m */,
+				2464D59C1BB6E7D3004F68C2 /* AboutViewController.xib */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		2460298C1C00AB1A00187E7A /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				24E2494E1BB2D64A00F75E2E /* TutorialViewController.h */,
+				24E2494F1BB2D64A00F75E2E /* TutorialViewController.m */,
+				24E249501BB2D64A00F75E2E /* TutorialViewController.xib */,
+			);
+			name = Tutorial;
+			sourceTree = "<group>";
+		};
+		2460298D1C00AB2200187E7A /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				24A01D911BB17C6100346FC2 /* MainpageViewController.h */,
+				24A01D921BB17C6100346FC2 /* MainpageViewController.m */,
+				24A01D931BB17C6100346FC2 /* MainpageViewController.xib */,
+			);
+			name = MainPage;
+			sourceTree = "<group>";
+		};
+		2474DE691BAEE38A00B7E038 = {
+			isa = PBXGroup;
+			children = (
+				24FC8A421BDFCB880044D08A /* AVFoundation.framework */,
+				24FA7A181BD93B7400F47A63 /* AudioToolbox.framework */,
+				2474DE741BAEE38A00B7E038 /* Arrow */,
+				2474DE731BAEE38A00B7E038 /* Products */,
+				9F41C599957294DB123AB8B3 /* Pods */,
+				64F795C3C427BE823E420118 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2474DE731BAEE38A00B7E038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2474DE721BAEE38A00B7E038 /* Arrow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2474DE741BAEE38A00B7E038 /* Arrow */ = {
+			isa = PBXGroup;
+			children = (
+				F4EFAB6E1FD7A13800F635BC /* PushNotificationView */,
+				2474DE781BAEE38A00B7E038 /* AppDelegate.h */,
+				2474DE791BAEE38A00B7E038 /* AppDelegate.m */,
+				24933B3D1BB2C5B000AEF973 /* HighScore.h */,
+				24933B3E1BB2C5B000AEF973 /* HighScore.m */,
+				2460298D1C00AB2200187E7A /* MainPage */,
+				2460298C1C00AB1A00187E7A /* Tutorial */,
+				2460298B1C00AB1100187E7A /* About */,
+				24BC11A41BE5101F005A3818 /* Record */,
+				24FB76AF1BBE2D5B0021AA08 /* Settings */,
+				249876721BE12706003DA919 /* HellGame */,
+				24E2495B1BB3C56F00F75E2E /* ClassicGame */,
+				24E249621BB3C59600F75E2E /* ArcadeGame */,
+				2474DE811BAEE38A00B7E038 /* Assets.xcassets */,
+				2474DE751BAEE38A00B7E038 /* Supporting Files */,
+			);
+			path = Arrow;
+			sourceTree = "<group>";
+		};
+		2474DE751BAEE38A00B7E038 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				243983BA1BC8AC8F00DAF916 /* Tock.caf */,
+				243983B41BC8AACF00DAF916 /* RingerChanged 1.wav */,
+				24933B3B1BB2C19A00AEF973 /* Main.storyboard */,
+				2474DE831BAEE38A00B7E038 /* LaunchScreen.storyboard */,
+				2474DE761BAEE38A00B7E038 /* main.m */,
+				249876701BE11123003DA919 /* BGMUSIC1.mp3 */,
+				2474DE861BAEE38A00B7E038 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		249876721BE12706003DA919 /* HellGame */ = {
+			isa = PBXGroup;
+			children = (
+				248C284F1BE272B6000F2132 /* HellScoreViewController.h */,
+				248C28501BE272B6000F2132 /* HellScoreViewController.m */,
+				248C28511BE272B6000F2132 /* HellScoreViewController.xib */,
+				248C284A1BE27293000F2132 /* HellGameViewController.h */,
+				248C284B1BE27293000F2132 /* HellGameViewController.m */,
+				248C284C1BE27293000F2132 /* HellGameViewController.xib */,
+			);
+			name = HellGame;
+			sourceTree = "<group>";
+		};
+		24BC11A41BE5101F005A3818 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				247709051BE35DA000D416E7 /* RecordViewController.h */,
+				247709061BE35DA000D416E7 /* RecordViewController.m */,
+				247709071BE35DA000D416E7 /* RecordViewController.xib */,
+				24BC11A51BE5153D005A3818 /* RecordTableViewCell.h */,
+				24BC11A61BE5153D005A3818 /* RecordTableViewCell.m */,
+				24BC11A71BE5153D005A3818 /* RecordTableViewCell.xib */,
+				24B1AEF11C054E4B00788457 /* Record.h */,
+				24B1AEF21C054E4B00788457 /* Record.m */,
+			);
+			name = Record;
+			sourceTree = "<group>";
+		};
+		24E2495B1BB3C56F00F75E2E /* ClassicGame */ = {
+			isa = PBXGroup;
+			children = (
+				24A01D961BB19CF800346FC2 /* ScoreViewController.h */,
+				24A01D971BB19CF800346FC2 /* ScoreViewController.m */,
+				24A01D981BB19CF800346FC2 /* ScoreViewController.xib */,
+				2474DE901BAEE4A900B7E038 /* GameViewController.h */,
+				2474DE911BAEE4A900B7E038 /* GameViewController.m */,
+				2474DE921BAEE4A900B7E038 /* GameViewController.xib */,
+			);
+			name = ClassicGame;
+			sourceTree = "<group>";
+		};
+		24E249621BB3C59600F75E2E /* ArcadeGame */ = {
+			isa = PBXGroup;
+			children = (
+				24E2495C1BB3C58800F75E2E /* NumberScoreViewController.h */,
+				24E2495D1BB3C58800F75E2E /* NumberScoreViewController.m */,
+				24E2495E1BB3C58800F75E2E /* NumberScoreViewController.xib */,
+				24E249531BB3C2FC00F75E2E /* NumberGameViewController.h */,
+				24E249541BB3C2FC00F75E2E /* NumberGameViewController.m */,
+				24E249551BB3C2FC00F75E2E /* NumberGameViewController.xib */,
+			);
+			name = ArcadeGame;
+			sourceTree = "<group>";
+		};
+		24FB76AF1BBE2D5B0021AA08 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2470B7901BBC354F00FF3230 /* Settings.h */,
+				2470B7911BBC354F00FF3230 /* Settings.m */,
+				2470B78B1BBC335700FF3230 /* SettingsViewController.h */,
+				2470B78C1BBC335700FF3230 /* SettingsViewController.m */,
+				2470B78D1BBC335700FF3230 /* SettingsViewController.xib */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		64F795C3C427BE823E420118 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6318CE4899B1AAB077EB5DB /* libPods-Arrow.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F41C599957294DB123AB8B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D4BA9B7A2BDD43776782D5E /* Pods-Arrow.debug.xcconfig */,
+				E2C97D5D9B20C71EE53CED00 /* Pods-Arrow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4EFAB6E1FD7A13800F635BC /* PushNotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				F4EFAB6F1FD7A13800F635BC /* JKNotifier.h */,
+				F4EFAB701FD7A13800F635BC /* JKNotifier.m */,
+				F4EFAB711FD7A13800F635BC /* JKNotifierBar.h */,
+				F4EFAB721FD7A13800F635BC /* JKNotifierBar.m */,
+			);
+			name = PushNotificationView;
+			path = ../../Library/PushNotificationView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2474DE711BAEE38A00B7E038 /* Arrow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2474DE891BAEE38A00B7E038 /* Build configuration list for PBXNativeTarget "Arrow" */;
+			buildPhases = (
+				B3FAB02511A49A8A68EE3004 /* [CP] Check Pods Manifest.lock */,
+				2474DE6E1BAEE38A00B7E038 /* Sources */,
+				2474DE6F1BAEE38A00B7E038 /* Frameworks */,
+				2474DE701BAEE38A00B7E038 /* Resources */,
+				082ACC532095A6BE18EC1D70 /* [CP] Embed Pods Frameworks */,
+				577BA7F6BEABE2321522DC43 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arrow;
+			productName = Arrow;
+			productReference = 2474DE721BAEE38A00B7E038 /* Arrow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2474DE6A1BAEE38A00B7E038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "宋 奎熹";
+				TargetAttributes = {
+					2474DE711BAEE38A00B7E038 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = VEBQ28K9EA;
+					};
+				};
+			};
+			buildConfigurationList = 2474DE6D1BAEE38A00B7E038 /* Build configuration list for PBXProject "Arrow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2474DE691BAEE38A00B7E038;
+			productRefGroup = 2474DE731BAEE38A00B7E038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2474DE711BAEE38A00B7E038 /* Arrow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2474DE701BAEE38A00B7E038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2470B78F1BBC335700FF3230 /* SettingsViewController.xib in Resources */,
+				243983BB1BC8AC8F00DAF916 /* Tock.caf in Resources */,
+				243983B61BC8AACF00DAF916 /* RingerChanged 1.wav in Resources */,
+				24E249601BB3C58800F75E2E /* NumberScoreViewController.xib in Resources */,
+				2474DE851BAEE38A00B7E038 /* LaunchScreen.storyboard in Resources */,
+				24A01D9A1BB19CF800346FC2 /* ScoreViewController.xib in Resources */,
+				2474DE821BAEE38A00B7E038 /* Assets.xcassets in Resources */,
+				2464D59E1BB6E7D3004F68C2 /* AboutViewController.xib in Resources */,
+				24E249521BB2D64A00F75E2E /* TutorialViewController.xib in Resources */,
+				248C284E1BE27293000F2132 /* HellGameViewController.xib in Resources */,
+				247709091BE35DA000D416E7 /* RecordViewController.xib in Resources */,
+				24933B3C1BB2C19A00AEF973 /* Main.storyboard in Resources */,
+				24A01D951BB17C6100346FC2 /* MainpageViewController.xib in Resources */,
+				248C28531BE272B6000F2132 /* HellScoreViewController.xib in Resources */,
+				24BC11A91BE5153D005A3818 /* RecordTableViewCell.xib in Resources */,
+				2474DE941BAEE4A900B7E038 /* GameViewController.xib in Resources */,
+				249876711BE11123003DA919 /* BGMUSIC1.mp3 in Resources */,
+				24E249571BB3C2FC00F75E2E /* NumberGameViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		082ACC532095A6BE18EC1D70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arrow/Pods-Arrow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		577BA7F6BEABE2321522DC43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arrow/Pods-Arrow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3FAB02511A49A8A68EE3004 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arrow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2474DE6E1BAEE38A00B7E038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EFAB731FD7A13800F635BC /* JKNotifier.m in Sources */,
+				24E249511BB2D64A00F75E2E /* TutorialViewController.m in Sources */,
+				F4EFAB741FD7A13800F635BC /* JKNotifierBar.m in Sources */,
+				24A01D991BB19CF800346FC2 /* ScoreViewController.m in Sources */,
+				24BC11A81BE5153D005A3818 /* RecordTableViewCell.m in Sources */,
+				2470B7921BBC354F00FF3230 /* Settings.m in Sources */,
+				24A01D941BB17C6100346FC2 /* MainpageViewController.m in Sources */,
+				24E2495F1BB3C58800F75E2E /* NumberScoreViewController.m in Sources */,
+				24933B3F1BB2C5B000AEF973 /* HighScore.m in Sources */,
+				2474DE931BAEE4A900B7E038 /* GameViewController.m in Sources */,
+				2464D59D1BB6E7D3004F68C2 /* AboutViewController.m in Sources */,
+				2474DE7A1BAEE38A00B7E038 /* AppDelegate.m in Sources */,
+				24B1AEF31C054E4B00788457 /* Record.m in Sources */,
+				2470B78E1BBC335700FF3230 /* SettingsViewController.m in Sources */,
+				2474DE771BAEE38A00B7E038 /* main.m in Sources */,
+				24E249561BB3C2FC00F75E2E /* NumberGameViewController.m in Sources */,
+				248C28521BE272B6000F2132 /* HellScoreViewController.m in Sources */,
+				248C284D1BE27293000F2132 /* HellGameViewController.m in Sources */,
+				247709081BE35DA000D416E7 /* RecordViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2474DE831BAEE38A00B7E038 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2474DE841BAEE38A00B7E038 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2474DE871BAEE38A00B7E038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kuixi Song (VEBQ28K9EA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kuixi Song (VEBQ28K9EA)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2474DE881BAEE38A00B7E038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kuixi Song (VEBQ28K9EA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kuixi Song (VEBQ28K9EA)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2474DE8A1BAEE38A00B7E038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D4BA9B7A2BDD43776782D5E /* Pods-Arrow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kuixi Song (VEBQ28K9EA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kuixi Song (VEBQ28K9EA)";
+				INFOPLIST_FILE = Arrow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krayc.Arrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2474DE8B1BAEE38A00B7E038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C97D5D9B20C71EE53CED00 /* Pods-Arrow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kuixi Song (VEBQ28K9EA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kuixi Song (VEBQ28K9EA)";
+				INFOPLIST_FILE = Arrow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krayc.Arrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2474DE6D1BAEE38A00B7E038 /* Build configuration list for PBXProject "Arrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2474DE871BAEE38A00B7E038 /* Debug */,
+				2474DE881BAEE38A00B7E038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2474DE891BAEE38A00B7E038 /* Build configuration list for PBXNativeTarget "Arrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2474DE8A1BAEE38A00B7E038 /* Debug */,
+				2474DE8B1BAEE38A00B7E038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2474DE6A1BAEE38A00B7E038 /* Project object */;
+}
